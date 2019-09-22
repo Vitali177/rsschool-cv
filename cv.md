@@ -44,4 +44,9 @@ var view = {
 5. **Experience**:
  + course-work on C++
  + tasks on HTML/CSS in codecademy
+6. **Education**:
+ + student of BSUIR (second course, engineer-electronic-programmer) 
+ + course on HTML/CSS in codecademy
+ + course on basic JS in Udemy
+7. **English level B1**
 
