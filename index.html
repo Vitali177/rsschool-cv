@@ -80,7 +80,73 @@
 <body>
     <header>
         <h1>MY MINI CV</h1><br>
-    </header>    
+    </header> 
+    
+    <main>
+
+        <div id="photo">aa</div>
+
+        <h1> Hello, I am Vitali Skrabatun!</h1>
+
+        <h2>My goal: to create intuitive and beautiful sites.</h2>
+
+        <h2>Skills:</h2>
+        <ul>
+            <li>Basic C++</li>
+            <li>Basic HTML CSS JS</li>
+        </ul>
+
+        <h2>My experience:</h2>
+
+        <ul>
+            <li>Course-work on C++</li>
+            <li>Tasks on HTML/CSS in codecademy</li>
+            <li>Course on basic JS in Udemy</li>
+        </ul>
+
+        <hr>
+
+        <h2 id="education">I am a second year student at <span>BSUIR</span> - engineer-electronic-programmer</h2>
+
+        <h2>English level: <span>B1</span> </h2>
+
+        <div id="code">
+            <h2><span> Code example,</span> this is a part  of code of my mini-game: </h2>
+            <pre>
+
+        var view = {
+            displayMessage: function(msg) {
+                var messageArea = document.getElementById('messageArea');
+                messageArea.innerHTML = msg;	
+            },
+        
+            displayHit: function(location) {
+                var cell = document.getElementById(location);
+                cell.setAttribute('class', 'hit');
+            },
+        
+            displaySank: function(ship) {
+                for (var i = 0; i < ship.locations.length; i++)  { 
+        
+                    let location = ship.locations[i];
+                    console.log(location);
+        
+                    var cell = document.getElementById(location);
+                    cell.setAttribute('class', 'sank');  
+                }
+        
+                console.log(ship);
+            },
+        
+            displayMiss: function(location) {
+                var cell = document.getElementById(location);
+                cell.setAttribute('class', 'miss');
+            }
+        };                      
+            </pre>
+        </div>
+        <hr>
+    </main>
     
 </body>
 </html>
