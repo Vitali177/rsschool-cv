@@ -41,3 +41,7 @@ var view = {
 	}
 };  
 ```
+5. **Experience**:
+ + course-work on C++
+ + tasks on HTML/CSS in codecademy
+
